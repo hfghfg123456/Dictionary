@@ -49,9 +49,11 @@ public class DictionaryManagement {
         String word_explain = scanner.nextLine();
         newWord.setWord_explain(word_explain);
         Dictionary.tudien.add(newWord);
+        System.out.println("Add done!");
     }
 
     public void modifyWord() {
+        System.out.println("Input modified word");
         Scanner scanner = new Scanner(System.in);
         String wordNeedModify = scanner.nextLine();
         for (int i = 0; i < Dictionary.tudien.size(); i++) {
@@ -64,9 +66,11 @@ public class DictionaryManagement {
                 Dictionary.tudien.get(i).setWord_explain(newWE);
             }
         }
+        System.out.println("Modify done!");
     }
 
     public void removeWord() {
+        System.out.println("Input removed word");
         Scanner scanner = new Scanner(System.in);
         String remWord = scanner.nextLine();
         for (int i = 0; i < Dictionary.tudien.size(); i++) {
@@ -74,6 +78,7 @@ public class DictionaryManagement {
                 Dictionary.tudien.remove(i);
             }
         }
+        System.out.println("Remove done!");
     }
 
     public void dictionaryLookUp() {
@@ -117,7 +122,7 @@ public class DictionaryManagement {
             }
             fos.close();
             dos.close();
-            System.out.println("Done!");
+            System.out.println("Export done!");
         } catch (IOException ex) {
             ex.printStackTrace();
         }
