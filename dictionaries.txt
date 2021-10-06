@@ -1,0 +1,6 @@
+house	ngoi nha
+dog	cho
+cat	meo
+bird	chim
+lion	sutu
+museum	bao tang
