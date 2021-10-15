@@ -4,3 +4,103 @@ cat	meo
 bird	chim
 lion	sutu
 museum	bao tang
+people	Người
+history	Lịch sử
+way	Đường
+art	Nghệ thuật
+world	Thế giới
+information	Thông tin
+map	Bản đồ
+two	Hai
+family	Gia đình
+government	Chính phủ
+health	Sức khỏe
+system	Hệ thống
+computer	Máy tính
+meat	Thịt
+year	Năm
+thanks	Lời cảm ơn
+music	Âm nhạc
+person	Người
+reading	Cách đọc
+method	Phương pháp
+data	Dữ liệu
+food	Thức ăn
+understanding	Hiểu biết
+theory	Lý thuyết
+law	Pháp luật
+bird	Chim
+literature	Văn chương
+problem	Vấn đề
+software	Phần mềm
+control	Kiểm soát
+knowledge	Kiến thức
+power	Quyền lực
+ability	Khả năng
+economics	Kinh tế học
+love	Tình Yêu
+internet	Internet
+television	Tivi
+science	Khoa học
+library	Thư viện
+nature	Bản chất
+fact	Việc
+product	Sản phẩm
+idea	Ý kiến
+temperature	Nhiệt độ
+investment	Đầu tư
+area	Khu vực
+society	Xã hội
+activity	Hoạt động
+story	Câu chuyện
+industry	Ngành công nghiệp
+media	Phương tiện truyền thông
+thing	những vật
+oven	Lò nướng
+community	Cộng đồng
+definition	Định nghĩa
+safety	Sự an toàn
+quality	Chất lượng
+development	Phát triển
+language	Ngôn ngữ
+management	Quản lý
+player	Người chơi
+variety	Nhiều
+video	Video
+week	Tuần
+security	An ninh
+country	Nước
+exam	Thi
+movie	Phim
+organization	Cơ quan
+equipment	Thiết bị
+physics	Vật lý
+analysis	Nghiên cứu
+policy	Chính sách
+series	Loạt
+thought	Tư tưởng
+basis	Căn cứ
+boyfriend	Bạn trai
+direction	Phương hướng
+strategy	Chiến lược
+technology	Công nghệ
+army	Quân đội
+camera	Máy chụp hình
+freedom	Sự tự do
+paper	Giấy
+environment	Môi trường
+child	Trẻ em
+instance	Trường hợp
+month	Tháng
+truth	Sự thật
+marketing	Thị trường
+university	Trường đại học
+writing	Viết
+article	Điều khoản
+department	Bộ
+difference	Khác nhau
+goal	Mục tiêu
+news	Tin tức
+audience	Khán giả
+fishing	Đánh cá
+growth	Tăng trưởng
