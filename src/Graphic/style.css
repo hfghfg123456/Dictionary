@@ -1,0 +1,44 @@
+.pane {
+    -fx-background-color: rgba(51, 153, 255, 1);
+}
+.anchor-pane{
+    -fx-background-color: aliceblue;
+}
+#label1 {
+        -fx-font-size: 20px;
+        -fx-padding: 5 5 5 5;
+        -fx-font-weight: bold;
+        -fx-background-color: rgba(51, 153, 255, 1);
+        -fx-text-fill: yellow;
+}
+#button1 {
+    -fx-font-size: 15px;
+    -fx-background-color: rgba(51, 153, 255, 1);
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+}
+#button2 {
+    -fx-font-size: 20px;
+    -fx-background-color: rgba(51, 153, 255, 1);
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+}
+.text-field
+{
+    -fx-background-color: rgba(51, 153, 255, 1);
+    -fx-font-size: 20;
+    -fx-background-radius: 10;
+    -fx-text-fill: yellow;
+}
+.list-view{
+    -fx-background-color: aliceblue ;
+    -fx-font-size: 20;
+    -fx-background-radius: 10;
+}
+.text-area{
+    -fx-background-color: aliceblue;
+    -fx-font-size: 20;
+    -fx-background-radius: 10;
+}

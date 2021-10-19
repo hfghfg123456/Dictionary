@@ -1,12 +1,14 @@
 package Main;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
 public  class DictionaryManagement {
 
-    public static List<String> addup = new ArrayList();
+    public static List<String> add_up = new ArrayList();
+    public static List<String> removeout = new ArrayList<>();
 
     public static  String dictionaryLookup(String wordToLookup){
         for(int i=0;i<Dictionary.tudien.size();i++) {
@@ -18,17 +20,30 @@ public  class DictionaryManagement {
 
         return "";
     }
-
-    public static void  removeWordFromDitionary(String id)
+    public static List<String> addmoreword(String addword_target,String addword_explain)
+    {
+        Word addnewword=new Word(addword_target,addword_explain);
+        Dictionary.tudien.add(addnewword);
+        add_up.add(addnewword.word_target);
+        return add_up;
+    }
+    public static List<String> removeWordFromDitionary(String id)
     {
 
         for(int i=Dictionary.tudien.size()-1;i>=0;i--) {
             Word word = Dictionary.tudien.get(i);
             String removing=word.word_target;
-            if (removing.equals(id)) {
+            if (removing.toLowerCase().equals(id.toLowerCase())) {
                 Dictionary.tudien.remove(i);
             }
+            else
+            {
+                removeout.add(Dictionary.tudien.get(i).word_target);
+            }
+            Collections.sort(removeout);
+
         }
+        return removeout;
     }
     public static void InsertFromFile() throws IOException {
         Scanner sc = null;
@@ -68,10 +83,23 @@ public  class DictionaryManagement {
     public static List<String> dictionarySearcher(String wordSearch) {
         for(int i = 0; i < Dictionary.tudien.size(); ++i) {
             if (((Word)Dictionary.tudien.get(i)).word_target.toLowerCase().contains(wordSearch.toLowerCase())) {
-                addup.add(((Word)Dictionary.tudien.get(i)).word_target);
+                add_up.add(((Word)Dictionary.tudien.get(i)).word_target);
             }
         }
 
-        return addup;
+        return add_up;
+    }
+    public static String modified(String change_target,String change_explain)//hàm chỉnh sửa nghĩa từ//
+    {
+        for(int i=0;i<Dictionary.tudien.size();i++)
+        {
+            if(Dictionary.tudien.get(i).word_target.toLowerCase().equals(change_target.toLowerCase()))
+            {
+                Word changeWord = new Word(change_target, change_explain);
+                Dictionary.tudien.set(i,changeWord);
+            }
+        }
+        dictionaryExportToFile();
+        return change_explain;
     }
 }

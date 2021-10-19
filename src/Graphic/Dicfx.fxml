@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="543.0" prefWidth="858.0" styleClass="anchor-pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controller">
+    <children>
+        <TextArea fx:id="textArea" layoutX="503.0" layoutY="141.0" onInputMethodTextChanged="#modified" onKeyPressed="#modified" onKeyReleased="#modified" onKeyTyped="#modified" prefHeight="168.0" prefWidth="271.0" />
+        <TextField fx:id="searchField" layoutX="40.0" layoutY="98.0" onKeyReleased="#inputsearch" prefHeight="35.0" prefWidth="231.0" promptText="Nhập từ cần tra" />
+        <ListView fx:id="listView" layoutX="40.0" layoutY="141.0" onMouseClicked="#clicked" onMousePressed="#inputsearch" prefHeight="361.0" prefWidth="231.0" />
+        <TextField fx:id="addTarget" layoutX="501.0" layoutY="343.0" prefHeight="44.0" prefWidth="169.0" promptText="Nhập từ mới" />
+        <Label id="label1" alignment="CENTER" layoutX="503.0" layoutY="100.0" prefHeight="35.0" prefWidth="271.0" text="Giải thích">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="addExplain" layoutX="501.0" layoutY="394.0" prefHeight="44.0" prefWidth="169.0" promptText="Thêm giải thích" />
+        <Button id="button2" fx:id="add" layoutX="686.0" layoutY="368.0" mnemonicParsing="false" onAction="#add_word" prefHeight="44.0" prefWidth="136.0" text="Thêm">
+            <graphic>
+                <ImageView id="button2" fitHeight="44.0" fitWidth="43.0" layoutX="677.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/logo-add-removebg-preview.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button id="button1" fx:id="delete" layoutX="315.0" layoutY="204.0" mnemonicParsing="false" onAction="#deleteword" prefHeight="43.0" prefWidth="136.0" text=" Xóa">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="74.0" layoutX="371.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../image/logo-delete-removebg-preview-removebg-preview.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+      <Button id="button1" fx:id="voice" layoutX="313.0" layoutY="119.0" mnemonicParsing="false" onAction="#voice" prefHeight="43.0" prefWidth="136.0" text="Phát âm">
+          <graphic>
+              <ImageView id="button1" fitHeight="29.0" fitWidth="47.0" layoutX="356.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../image/loa_logo-removebg-preview.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+      </Button>
+      <Pane prefHeight="71.0" prefWidth="861.0" styleClass="pane">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="333.0" layoutX="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/BGPt-logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
