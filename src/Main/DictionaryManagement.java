@@ -32,7 +32,6 @@ public  class DictionaryManagement {
     }
     public static List<String> removeWordFromDitionary(String id)
     {
-
         for(int i=Dictionary.tudien.size()-1;i>=0;i--) {
             Word word = Dictionary.tudien.get(i);
             String removing=word.word_target;
