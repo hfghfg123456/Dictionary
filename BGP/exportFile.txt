@@ -1,0 +1,19 @@
+lion	sư tử
+cat	mèo
+elephant	voi
+bird	chim
+pig	lăn
+dog	chó
+cow	bò
+buffalo	trâu
+chicken	gà
+tiger	hổ
+fish	cá
+eel	lươn
+mouse	chuột
+fly	ruồi
+ant	kiến
+mosquito	muỗi
+apple	táo
+grammar	ngữ pháp
+color	màu sắc
