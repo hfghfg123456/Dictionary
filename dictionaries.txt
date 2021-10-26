@@ -1,104 +1,101 @@
-house																	ngoi nha
-dog																	cho
-cat																	meo
-bird																	chim
-lion																	sutu
-museum																	bao tang
-people																	Người
-history																	Lịch sử
-way																	Đường
-world																	Thế giới
-information																	Thông tin
-map																	Bản đồ
-two																	Hai
-family																	Gia đình
-government																	Chính phủ
-health																	Sức khỏe
-system																	Hệ thống
-computer																	Máy tính
-meat																	Thịt
-year																	Năm
-thanks																	Lời cảm ơn
-music																	Âm nhạc
-person																	Người
-reading																	Cách đọc
-method																	Phương pháp
-data																	Dữ liệu
-understanding																	Hiểu biết
-theory																	Lý thuyết
-law																	Pháp luật
-bird																	Chim
-literature																	Văn chương
-problem																	Vấn đề
-software																	Phần mềm
-control																	Kiểm soát
-knowledge																	Kiến thức
-power																	Quyền lực
-ability																	Khả năng
-economics																	Kinh tế học
-love																	Tình Yêu
-internet																	Internet
-television																	Tivi
-science																	Khoa học
-library																	Thư viện
-nature																	Bản chất
-fact																	Việc
-product																	Sản phẩm
-temperature																	Nhiệt độ
-investment																	Đầu tư
-area																	Khu vực
-society																	Xã hội
-activity													Hoạt động
-industry																	Ngành công nghiệp
-media																	Phương tiện truyền thông
-thing																	những vật
-oven																	Lò nướng
-community																	Cộng đồng
-definition																	Định nghĩa
-safety																	Sự an toàn
-quality																	Chất lượng
-development																	Phát triển
-language																	Ngôn ngữ
-management																	Quản lý
-player																	Người chơi
-variety																	Nhiều
-video																	Video
-week																	Tuần
-security																	An ninh
-country																	Nước
-exam																	Thi
-movie																	Phim
-organization																	Cơ quan
-equipment																	Thiết bị
-physics																	Vật lý
-analysis												Nghiên cứu
-policy																	Chính sách
-series																	Loạt
-thought																	Tư tưởng
-basis											   Căn cứ
-boyfriend																	Bạn trai
-direction																	Phương hướng
-strategy																	Chiến lược
-technology																	Công nghệ
-army																	Quân đội
-camera																	Máy chụp hình
-freedom																	Sự tự do
-paper																	Giấy
-environment																	Môi trường
-child																	Trẻ em
-instance																	Trường hợp
-month																	Tháng
-truth																	Sự thật
-marketing																	Thị trường
-university																	Trường đại học
-writing																	Viết
-article																	Điều khoản
-department																	Bộ
-difference																	Khác nhau
-goal																	Mục tiêu
-news																	Tin tức
-audience																	Khán giả
-fishing																	Đánh cá
-growth																	Tăng trưởng
-sas																sas
-hello									xin chao
+house	(noun) /haʊs/ Ngôi nhà
+dog	(noun) /dɒɡ/ Con chó
+cat	(noun) /kæt/ Con mèo
+lion	(noun) /ˈlaɪ.ən/ Sư tử
+museum	(noun) /mjuːˈziː.əm/ Bảo tàng
+people	(noun) /ˈpiː.pəl/ (Nhóm) Người
+history	(noun) /ˈhɪs.tər.i/ Lịch sử
+way	(noun) /weɪ/ Đường
+world	(noun) /wɜːld/ Thế giới
+information	(noun) /ˌɪn.fəˈmeɪ.ʃən/ Thông tin
+map	(noun) /mæp/ Bản đồ
+two	(noun) /tuː/ Số hai
+family	(noun) /ˈfæm.əl.i/ Gia đình
+government	(noun) /ˈɡʌv.ən.mənt/ Chính phủ
+health	(noun) /helθ/ Sức khỏe
+system	(noun) /ˈsɪs.təm/ Hệ thống
+computer	(noun) /kəmˈpjuː.tər/ Máy tính
+meat	(noun) /miːt/ Thịt
+thanks	(noun) /θæŋks/ Lời cảm ơn
+music	(noun) /ˈmjuː.zɪk/ Âm nhạc
+person	(noun) /ˈpɜː.sən/ Người
+reading	(noun) /ˈriː.dɪŋ/ Cách đọc
+method	(noun) /ˈmeθ.əd/ Phương pháp
+data	(noun) /ˈdeɪ.tə/ Dữ liệu
+understanding	(noun) /ˌʌn.dəˈstæn.dɪŋ/ Hiểu biết
+theory	(noun) /ˈθɪə.ri/ Lý thuyết
+law	(noun) /lɔː/ Pháp luật
+literature	(noun) /ˈlɪt.rə.tʃər/ Văn chương
+problem	(noun) /ˈprɒb.ləm/ Vấn đề
+software	(noun) /ˈsɒft.weər/ Phần mềm
+control	(verb) /kənˈtrəʊl/ Kiểm soát
+knowledge	(noun) /ˈnɒl.ɪdʒ/ Kiến thức
+power	(noun) /paʊər/ Quyền lực
+ability	(noun) /əˈbɪl.ə.ti/ Khả năng
+economics	(noun) /ˌiː.kəˈnɒm.ɪks/ Kinh tế học
+love	(noun) /lʌv/ Tình Yêu
+internet	(noun) /ˈɪn.tə.net/ Internet
+television	(noun) /ˈtel.ɪ.vɪʒ.ən/ Tivi
+science	(noun) /ˈsaɪ.əns/ Khoa học
+library	(noun) /ˈlaɪ.brər.i/Thư viện
+nature	(noun) /ˈneɪ.tʃər/ tự nhiên
+fact	(noun) /fækt/ sự thật
+product	(noun) /ˈprɒd.ʌkt/ Sản phẩm
+temperature	(noun) /ˈtem.prə.tʃər/ Nhiệt độ
+investment	(noun) /ɪnˈvest.mənt/ Đầu tư
+society	(noun) /səˈsaɪ.ə.ti/ Xã hội
+activity	(noun) /ækˈtɪv.ə.ti/ Hoạt động
+media	(noun) /ˈmiː.di.ə/ Đa phương tiện truyền thông
+thing	(noun) /θɪŋ/ Vật
+oven	(noun) /ˈʌv.ən/ Lò nướng
+community	(noun) /kəˈmjuː.nə.ti/ Cộng đồng
+definition	(noun) /ˌdef.ɪˈnɪʃ.ən/ Định nghĩa
+safety	(noun) /ˈseɪf.ti/ Sự an toàn
+quality	(noun) /ˈkwɒl.ə.ti/ Chất lượng
+development	(noun) /dɪˈvel.əp.mənt/ Phát triển
+language	(noun) /ˈlæŋ.ɡwɪdʒ/ Ngôn ngữ
+management	(noun) /ˈmæn.ɪdʒ.mənt/ Quản lý
+player	(noun) /ˈpleɪ.ər/ Người chơi
+variety	(noun) /vəˈraɪ.ə.ti/ Nhiều
+video	(noun) /ˈvɪd.i.əʊ/ Băng hình
+week	(noun) /wiːk/ Tuần
+security	(noun) /sɪˈkjʊə.rə.ti/ An ninh
+country	(noun) /ˈkʌn.tri/ Nước
+exam	(noun) /ɪɡˈzæm/ Bài kiểm tra
+movie	(noun) /ɪɡˈzæm/ Phim
+organization	(noun) /ˌɔː.ɡən.aɪˈzeɪ.ʃən/ Tổ chức
+equipment	(noun) /ɪˈkwɪp.mənt/ Thiết bị
+physics	(noun) /ˈfɪz.ɪks/ Vật lý
+analysis	(verb) /əˈnæl.ə.sɪs/ Phân tích, nghiên cứu
+policy	(noun) /ˈpɒl.ə.si/ Chính sách
+series	(noun) /ˈsɪə.riːz/ Loạt
+thought	(noun) /θɔːt/ Tư tưởng
+boyfriend	(noun) /ˈbɔɪ.frend/ Bạn trai
+direction	(noun) /daɪˈrek.ʃən/ Phương hướng
+strategy	(noun) /ˈstræt.ə.dʒi/ Chiến lược
+technology	(noun) /tekˈnɒl.ə.dʒi/ Công nghệ
+army	(noun) /ˈɑː.mi/ Quân đội
+camera	(noun) /ˈkæm.rə/ Máy chụp ảnh
+freedom	(noun) /ˈfriː.dəm/ Sự tự do
+paper	(noun) /ˈpeɪ.pər/ Giấy
+environment	(noun) /ɪnˈvaɪ.rən.mənt/ Môi trường
+child	(noun) /tʃaɪld/ Đứa trẻ
+instance	(noun) /ˈɪn.stəns/ Trường hợp
+month	(noun) /mʌnθ/ Tháng
+truth	(noun) /truːθ/ thật
+marketing	(noun) /ˈmɑː.kɪ.tɪŋ/ Thị trường
+university	(noun) /ˌjuː.nɪˈvɜː.sə.ti/ Trường đại học
+writing	(noun) /ˈraɪ.tɪŋ/ Viết
+article	(noun) /ˈɑː.tɪ.kəl/ Điều khoản
+department	(noun) /dɪˈpɑːt.mənt/ Bộ
+difference	(noun) /ˈdɪf.ər.əns/ Khác nhau
+goal	(noun) /ɡəʊl/ Mục tiêu
+news	(noun) /njuːz/ Tin tức
+audience	(noun) /ˈɔː.di.əns/ Khán giả
+fishing	(noun) /ˈfɪʃ.ɪŋ/ Đánh cá
+growth	(noun) /ɡrəʊθ/ Tăng trưởng
+hello	(noun) /heˈləʊ/ xin chào
+year	(noun) /jɪər/ Năm
+bird	(noun) /bɜːd/ Con chim
+basis	(noun) /ˈbeɪ.sɪs/ Căn cứ
+industry	(noun) /ˈɪn.də.stri/ Ngành công nghiệp

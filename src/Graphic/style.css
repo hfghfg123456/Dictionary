@@ -42,3 +42,17 @@
     -fx-font-size: 20;
     -fx-background-radius: 10;
 }
+#button1:pressed {
+    -fx-font-size: 15px;
+    -fx-background-color: green;
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+}
+#button2:pressed {
+    -fx-font-size: 20px;
+    -fx-background-color: green;
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+}

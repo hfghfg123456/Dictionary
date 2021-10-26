@@ -33,12 +33,12 @@ public class Controller extends Dictionary implements Initializable {
     Button voice, delete, add;
 
     @FXML
-    ListView listView = new ListView();
+    ListView<String> listView = new ListView<>();
     public void clicked (MouseEvent e){
         searchField.setText(listView.getSelectionModel().getSelectedItem().toString());
         textArea.setText(DictionaryManagement.dictionaryLookup(listView.getSelectionModel().getSelectedItem().toString()));
     }
-    public void deleteword(ActionEvent event) {
+    public void deleteWord(ActionEvent event) {
         textArea.setText(DictionaryManagement.dictionaryLookup(listView.getSelectionModel().getSelectedItem().toString()));
         String del=listView.getSelectionModel().getSelectedItem().toString();
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -62,7 +62,7 @@ public class Controller extends Dictionary implements Initializable {
                 alert.setHeaderText(null);
                 alert.setContentText('"' + engrisk + '"' + " đã được thêm vào!");
                 alert.showAndWait();
-                List<String> newWord = DictionaryManagement.addmoreword(engrisk, meaning);
+                List<String> newWord = DictionaryManagement.addNewWord(engrisk, meaning);
                 DictionaryManagement.dictionaryExportToFile();
                 ObservableList<String> data = FXCollections.observableArrayList(newWord);
                 listView.setItems(data);
@@ -78,7 +78,7 @@ public class Controller extends Dictionary implements Initializable {
                 alert.showAndWait();
             }
     }
-    public void inputsearch(KeyEvent event)
+    public void inputSearch(KeyEvent event)
     {
         String se=searchField.getText().toString();
         List<String> s= DictionaryManagement.dictionarySearcher(se);
@@ -123,7 +123,6 @@ public class Controller extends Dictionary implements Initializable {
     }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
         try{
             DictionaryManagement.InsertFromFile();
         } catch (IOException e){

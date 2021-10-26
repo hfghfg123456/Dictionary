@@ -1,9 +1,13 @@
 package Main;
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
 
 public  class DictionaryManagement {
 
@@ -17,14 +21,13 @@ public  class DictionaryManagement {
                 return Dictionary.tudien.get(i).word_explain;
             }
         }
-
         return "";
     }
-    public static List<String> addmoreword(String addword_target,String addword_explain)
+    public static List<String> addNewWord(String addword_target,String addword_explain)
     {
-        Word addnewword=new Word(addword_target,addword_explain);
-        Dictionary.tudien.add(addnewword);
-        add_up.add(addnewword.word_target);
+        Word newWord=new Word(addword_target,addword_explain);
+        Dictionary.tudien.add(newWord);
+        add_up.add(newWord.word_target);
         return add_up;
     }
     public static List<String> removeWordFromDitionary(String id)
@@ -40,29 +43,20 @@ public  class DictionaryManagement {
             {
                 removeout.add(Dictionary.tudien.get(i).word_target);
             }
-            Collections.sort(removeout);
-
         }
         return removeout;
     }
     public static void InsertFromFile() throws IOException {
-        Scanner sc = null;
         try {
-
-            sc = new Scanner(new File("dictionaries.txt"));
-
-            while (sc.hasNext()) {
-                String word = sc.next();
-                String word_mean = sc.nextLine();
-                Dictionary.tudien.add(new Word(word, word_mean));
+            Path paths = Paths.get("dictionaries.txt");
+            List<String> read = Files.readAllLines(paths);
+            for (String wordData : read) {
+                String[] data = wordData.split("\t");
+                Word newWord = new Word(data[0], data[1]);
+                Dictionary.tudien.add(newWord);
+                Dictionary.listTarget.add(newWord.word_target);
             }
-            for (int i = 0; i < Dictionary.tudien.size(); i++) {
-                Dictionary.listTarget.add(Dictionary.tudien.get(i).word_target);
-            }
-            sc.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+        } catch (IOException ignored) {}
     }
 
     public static void dictionaryExportToFile()
